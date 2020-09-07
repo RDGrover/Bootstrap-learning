@@ -253,10 +253,11 @@
     <!--/features-->
 
     <!--Monthly-->
-    <div class="container monthly-container"></div>
+    <div class="container-fluid monthly-container">
+    <div class="monthly-opaque-overlay">
     <section class="monthly">
-      <div class="col-12 my-5">
-        <h3>Monthly favourites:</h3>
+      <div class="col-12 page-header">
+        <h3 class="text-uppercase monthly-heading">Monthly favourites:</h3>
       </div>
       <div class="container-fluid">
         <table class="table table-striped">
@@ -297,6 +298,10 @@
         </table>
       </div>
     </section>
+    </div>
+    
+
+
     <!--/monthly-->
     <div class="modal" tabindex="-1" id="signUpModal">
       <div class="modal-dialog">
@@ -349,6 +354,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <script

@@ -141,7 +141,38 @@ p mark {
     font-size: 40px;
 }
 
-.monthly-container{}
+.monthly-container{
+    height: 100vh;
+    background: url("../images/pexels-ylanite-koppens-697662.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  position: relative;
+
+  margin-bottom: 0;
+  padding: 0;  
+}
+
+.monthly-heading {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.monthly-opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.table {
+    background-color: #ffffff;
+}
 
 .container-wrapper{
     background-color: #c1442f;
